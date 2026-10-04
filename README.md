@@ -4,7 +4,7 @@ Live site: https://az-makes.github.io/website/
 
 Editable static website: seven main HTML pages, five fictional portfolio demos, shared styles and vanilla JavaScript. Serve this folder through any static web server; no build step is needed.
 
-`site-config.js` contains public contact settings. `launch-contact.js` manages the inquiry form, draft downloads and optional Formspree delivery. The form currently prepares email drafts; a verified owner-supplied form ID is needed for direct delivery. `script.js` manages navigation, theme, studio interactions and the clearly labeled local Zy FAQ. `launch.css` adds service/process layout and accessibility improvements.
+`site-config.js` contains public contact settings. `launch-contact.js` manages the inquiry form, draft downloads and optional Formspree delivery. Direct delivery is connected to the AZ Makes Formspree form (mbglnvlk). Message downloads remain available as a fallback. `script.js` manages navigation, theme, studio interactions and the clearly labeled local Zy FAQ. `launch.css` adds service/process layout and accessibility improvements.
 
 `showcase-data.json`, `showcase.js` and `showcase.css` manage 14 case studies, with 30 adapted creative artworks and four portfolio styles. See `SHOWCASE.md` for sample presentation and editing notes. Original private workflow exports and personal portfolio details are not part of the new showcases.
 
