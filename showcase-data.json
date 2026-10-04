@@ -1,0 +1,262 @@
+[
+  {
+    "id": "tier-1",
+    "title": "Professional Portfolio",
+    "category": "portfolio",
+    "description": "A calm editorial portfolio with clear typography and focused project cards.",
+    "images": [
+      "assets/showcase/tier-1.jpeg"
+    ],
+    "tools": [
+      "HTML",
+      "CSS",
+      "Vanilla JavaScript"
+    ],
+    "demo": "demos/professional.html",
+    "note": "Design sample with fictional Jamie Rivera content. No client results are claimed."
+  },
+  {
+    "id": "tier-2",
+    "title": "Creative Portfolio",
+    "category": "portfolio",
+    "description": "An expressive portfolio with a pointer-responsive dimensional accent.",
+    "images": [
+      "assets/showcase/tier-2.jpeg"
+    ],
+    "tools": [
+      "HTML",
+      "CSS",
+      "Vanilla JavaScript"
+    ],
+    "demo": "demos/creative.html",
+    "note": "Design sample with fictional Jamie Rivera content. No client results are claimed."
+  },
+  {
+    "id": "tier-3",
+    "title": "Immersive 3D Portfolio",
+    "category": "portfolio",
+    "description": "A small interactive workspace with selectable views and light/dark appearance.",
+    "images": [
+      "assets/showcase/tier-3.jpeg",
+      "assets/showcase/tier-3-dark.jpeg"
+    ],
+    "tools": [
+      "HTML",
+      "CSS",
+      "Vanilla JavaScript"
+    ],
+    "demo": "demos/immersive.html",
+    "note": "Design sample with fictional Jamie Rivera content. No client results are claimed."
+  },
+  {
+    "id": "tier-4",
+    "title": "Orbit Studio Portfolio",
+    "category": "portfolio",
+    "description": "An explorable portfolio with three stations, keyboard controls, motion and sound toggles.",
+    "images": [
+      "assets/showcase/tier-4.jpeg",
+      "assets/showcase/tier-4-dark.jpeg"
+    ],
+    "tools": [
+      "HTML",
+      "CSS",
+      "Vanilla JavaScript"
+    ],
+    "demo": "demos/tier-4.html",
+    "note": "Design sample with fictional Jamie Rivera content. No client results are claimed."
+  },
+  {
+    "id": "lead-capture",
+    "title": "WhatsApp Lead Capture",
+    "category": "n8n",
+    "description": "An n8n workflow designed to turn a WhatsApp inquiry into structured lead details, qualify the request, and route follow-up actions.",
+    "images": [
+      "assets/showcase/lead-capture.svg"
+    ],
+    "tools": [
+      "n8n",
+      "Gemini",
+      "WhatsApp",
+      "Google Workspace",
+      "Slack"
+    ],
+    "note": "Based on the supplied 12-node workflow. Integration setup, credentials and deployment are required; no live execution or conversion results are claimed.",
+    "steps": [
+      "Receive the incoming WhatsApp message.",
+      "Extract structured fields and check qualification conditions.",
+      "Prepare records, scheduling and notifications through connected services.",
+      "Respond through WhatsApp."
+    ],
+    "deliverables": [
+      "Workflow structure",
+      "Lead intake logic",
+      "Multi-channel follow-up"
+    ]
+  },
+  {
+    "id": "calendar-agent",
+    "title": "Calendar AI Assistant",
+    "category": "n8n",
+    "description": "A Make scenario that searches Google Calendar, passes the results to an AI agent, and prepares a WhatsApp response.",
+    "images": [
+      "assets/showcase/calendar-agent.svg"
+    ],
+    "tools": [
+      "Make",
+      "Google Calendar",
+      "AI Agent",
+      "WhatsApp"
+    ],
+    "note": "Based on the supplied three-module Make blueprint. This is a design walkthrough, not a running booking service.",
+    "steps": [
+      "Search events in a configured calendar.",
+      "Pass calendar context to the AI agent.",
+      "Send the agent response through the configured WhatsApp integration."
+    ],
+    "deliverables": [
+      "Scenario structure",
+      "Calendar context handoff",
+      "Messaging response"
+    ]
+  },
+  {
+    "id": "content-router",
+    "title": "AI Content Routing",
+    "category": "n8n",
+    "description": "A Make workflow that receives a webhook, processes incoming items, routes requests, downloads supporting files, and passes AI output to Discord.",
+    "images": [
+      "assets/showcase/content-router.svg"
+    ],
+    "tools": [
+      "Make",
+      "Webhooks",
+      "AI Agent",
+      "HTTP",
+      "Discord"
+    ],
+    "note": "Based on the supplied Frankid blueprint: two routed file/AI/Discord branches. Private URLs, connection IDs and message data are excluded.",
+    "steps": [
+      "Accept input through a webhook.",
+      "Iterate over items and select a route.",
+      "Download a supporting file and run the configured AI agent.",
+      "Send the generated response to Discord."
+    ],
+    "deliverables": [
+      "Webhook intake",
+      "Branch routing",
+      "AI-assisted delivery"
+    ]
+  },
+  {
+    "id": "zy-invitations",
+    "title": "Invitations & Celebrations",
+    "category": "zy",
+    "description": "Five celebration layouts, adapted with fictional event details and illustrated photo placeholders.",
+    "images": [
+      "assets/showcase/zy-invitations.webp"
+    ],
+    "tools": [
+      "Canva",
+      "Art direction",
+      "Layout design"
+    ],
+    "note": "5 supplied artworks represented in this anonymized display sheet. AI-assisted anonymization changes names, contact details and personal photos. Adapted samples; no client commission, sales or endorsement is claimed.",
+    "count": 5
+  },
+  {
+    "id": "zy-cards",
+    "title": "Business & Thank-you Cards",
+    "category": "zy",
+    "description": "Five print layouts exploring floral texture, playful color and thoughtful packaging details.",
+    "images": [
+      "assets/showcase/zy-cards.webp"
+    ],
+    "tools": [
+      "Canva",
+      "Art direction",
+      "Layout design"
+    ],
+    "note": "5 supplied artworks represented in this anonymized display sheet. AI-assisted anonymization changes names, contact details and personal photos. Adapted samples; no client commission, sales or endorsement is claimed.",
+    "count": 5
+  },
+  {
+    "id": "zy-brands",
+    "title": "Brand & Logo Studies",
+    "category": "zy",
+    "description": "Eight visual identity studies adapted for fictional businesses.",
+    "images": [
+      "assets/showcase/zy-brands.webp"
+    ],
+    "tools": [
+      "Canva",
+      "Art direction",
+      "Layout design"
+    ],
+    "note": "8 supplied artworks represented in this anonymized display sheet. AI-assisted anonymization changes names, contact details and personal photos. Adapted samples; no client commission, sales or endorsement is claimed.",
+    "count": 8
+  },
+  {
+    "id": "zy-books",
+    "title": "Activity & Coloring Books",
+    "category": "zy",
+    "description": "Three playful cover concepts for drawing and coloring collections.",
+    "images": [
+      "assets/showcase/zy-books.webp"
+    ],
+    "tools": [
+      "Canva",
+      "Art direction",
+      "Layout design"
+    ],
+    "note": "3 supplied artworks represented in this anonymized display sheet. AI-assisted anonymization changes names, contact details and personal photos. Adapted samples; no client commission, sales or endorsement is claimed.",
+    "count": 3
+  },
+  {
+    "id": "zy-covers",
+    "title": "Book Cover Collection",
+    "category": "zy",
+    "description": "Four cover directions exploring typography, illustration and atmosphere.",
+    "images": [
+      "assets/showcase/zy-covers.webp"
+    ],
+    "tools": [
+      "Canva",
+      "Art direction",
+      "Layout design"
+    ],
+    "note": "4 supplied artworks represented in this anonymized display sheet. AI-assisted anonymization changes names, contact details and personal photos. Adapted samples; no client commission, sales or endorsement is claimed.",
+    "count": 4
+  },
+  {
+    "id": "zy-ads",
+    "title": "Social Campaign Samples",
+    "category": "zy",
+    "description": "Five promotional layouts for fictional planner and salon concepts.",
+    "images": [
+      "assets/showcase/zy-ads.webp"
+    ],
+    "tools": [
+      "Canva",
+      "Art direction",
+      "Layout design"
+    ],
+    "note": "5 supplied artworks represented in this anonymized display sheet. AI-assisted anonymization changes names, contact details and personal photos. Adapted samples; no client commission, sales or endorsement is claimed.",
+    "count": 5
+  },
+  {
+    "id": "zy-atelier",
+    "title": "Zy / The Creative Atelier",
+    "category": "portfolio",
+    "description": "A fictional creative portfolio adapted from the supplied atelier template, with a warm editorial layout and six artwork collections.",
+    "images": [
+      "assets/showcase/zy-cards.webp"
+    ],
+    "tools": [
+      "HTML",
+      "CSS",
+      "Canva"
+    ],
+    "demo": "demos/zy-atelier.html",
+    "note": "Fictional studio identity and sample biography. Original personal résumé, portrait, contacts and Canva edit links are excluded."
+  }
+]
