@@ -3,7 +3,7 @@
 let showcaseData;
 const showcaseDialog=document.getElementById('showcase-dialog');
 let showcaseOpener;
-const dataReady=fetch('showcase-data.json?v=10').then(response=>{
+const dataReady=fetch('showcase-data.json?v=12').then(response=>{
   if(!response.ok) throw new Error('Collection unavailable');
   return response.json();
 }).then(data=>showcaseData=data);
@@ -28,7 +28,7 @@ document.querySelectorAll('[data-showcase]').forEach(button=>button.addEventList
     if(study.deliverables){context.append(showcaseText('h3','What this demonstrates'),showcaseText('p',study.deliverables.join(' · ')));}
     document.getElementById('showcase-note').textContent=study.note;
     const actions=document.getElementById('showcase-actions');actions.replaceChildren();
-    if(study.demo){const link=showcaseText('a','Open fictional interactive demo ↗');link.href=study.demo;link.className='button';link.target='_blank';link.rel='noopener';actions.append(link);}
+    if(study.demo){const link=showcaseText('a','Explore full interactive portfolio ↗');link.href=study.demo;link.className='button';link.target='_blank';link.rel='noopener';actions.append(link);}
     const contact=showcaseText('a','Create something like this →');contact.href='contact.html';contact.className='text-link';actions.append(contact);
     showcaseDialog.showModal();showcaseDialog.scrollTop=0;
   }catch{toast('The collection could not load. Please refresh and try again.');}

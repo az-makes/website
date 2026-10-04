@@ -250,16 +250,34 @@
     "id": "zy-atelier",
     "title": "Zy / The Creative Atelier",
     "category": "portfolio",
-    "description": "A fictional creative portfolio adapted from the supplied atelier template, with a warm editorial layout and six artwork collections.",
+    "description": "An interactive 3D gallery with six artwork collections, camera navigation, loading screen, native custom cursors, light/dark mode, sound and a fictional résumé.",
     "images": [
       "assets/showcase/zy-cards.webp"
     ],
     "tools": [
       "HTML",
       "CSS",
-      "Canva"
+      "JavaScript",
+      "Three.js"
     ],
-    "demo": "demos/zy-atelier.html",
-    "note": "Fictional studio identity and sample biography. Original personal résumé, portrait, contacts and Canva edit links are excluded."
+    "demo": "demos/atelier.html",
+    "note": "Fictional demo with adapted anonymized artwork. Portfolio guide is an FAQ, not a live AI service."
+  },
+  {
+    "id": "baby-robot",
+    "title": "Baby Robot / Operations Portfolio",
+    "category": "portfolio",
+    "description": "A playful operations portfolio with an animated robot, orbiting rings, loading intro, custom cursors, theme switch, motion control and workflow explorer.",
+    "images": [
+      "assets/showcase/robot-preview.jpg"
+    ],
+    "tools": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "SVG"
+    ],
+    "demo": "demos/baby-robot.html",
+    "note": "Fictional Jamie Rivera sample. No original portrait, contact details, employment history or private workflow export is included."
   }
 ]
