@@ -19,7 +19,7 @@ if(inquiryForm){
     const link=document.getElementById('inquiry-download');link.href=downloadURL;link.download='az-makes-inquiry.txt';link.hidden=false;
   }
   document.getElementById('prepare-download').addEventListener('click',()=>{
-    if(!inquiryForm.reportValidity())return;saveDraft();status.textContent='Your message file is ready. Download it below; nothing has been sent.';
+    if(!inquiryForm.reportValidity())return;saveDraft();document.getElementById('inquiry-download').click();status.textContent='Your message download is ready. If it did not start, use Download message below. Nothing has been sent.';
   });
   inquiryForm.addEventListener('input',()=>{document.getElementById('inquiry-download').hidden=true;status.textContent='';});
   inquiryForm.addEventListener('submit',async event=>{
