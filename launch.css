@@ -1,0 +1,17 @@
+:focus-visible{outline:3px solid #79cfff!important;outline-offset:5px}
+.offer-list{text-align:left;margin:20px 0;padding-left:20px;line-height:1.8;font-size:14px}
+.service .text-link{display:inline-flex;min-height:44px;align-items:center}
+.process-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:18px;margin:32px 0}
+.process-grid article{padding:24px}.process-grid strong{color:#63baff}.process-grid h3{font-size:20px;margin:14px 0}.process-grid p{line-height:1.7;font-size:14px}
+.launch-section{max-width:1250px;margin:20px auto;padding:40px 5%;border-radius:28px;background:var(--surface,#111a2c);border:1px solid #8195b52b}
+.launch-section h2{font-size:clamp(26px,4vw,42px);margin-bottom:18px}.launch-section p{line-height:1.8;max-width:900px}
+.launch-section details{padding:16px 0;border-top:1px solid #8195b52b}.launch-section summary{font-weight:600;min-height:44px;display:list-item;cursor:pointer}
+.form-extras{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.form-actions{display:flex;gap:12px;flex-wrap:wrap;align-items:center}.form-actions button,.form-actions a{min-height:44px}
+.consent-row{display:flex!important;align-items:flex-start;gap:10px;font-size:13px!important;line-height:1.6}.consent-row input{width:18px!important;min-width:18px;height:18px;margin-top:4px}
+.honey{position:absolute;left:-10000px;width:1px;height:1px;overflow:hidden}
+#form-status{line-height:1.7;min-height:24px}.form-note{line-height:1.7!important}.bot-message a{display:inline-block;margin:9px 12px 0 0;text-decoration:underline;min-height:30px}
+.chat-options{flex-wrap:wrap}.chat-options button{min-height:40px}.chat-options button:focus-visible{outline-offset:1px}
+@media(max-width:760px){.process-grid{grid-template-columns:1fr 1fr}.form-extras{grid-template-columns:1fr}.launch-section{margin:20px 12px;padding:30px 22px}.filters button{min-height:44px}.header nav a{min-height:44px}}
+@media(max-width:450px){.process-grid{grid-template-columns:1fr}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto!important}*,*::before,*::after{animation:none!important;transition:none!important}.tilt{transform:none!important}.ambient{animation:none!important}}

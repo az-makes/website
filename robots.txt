@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /website/
+Disallow: /website/demos/
+Sitemap: https://az-makes.github.io/website/sitemap.xml
