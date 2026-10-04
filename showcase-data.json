@@ -13,7 +13,8 @@
       "Vanilla JavaScript"
     ],
     "demo": "demos/professional.html",
-    "note": "Design sample with fictional Jamie Rivera content. No client results are claimed."
+    "note": "Design sample with fictional Jamie Rivera content. No client results are claimed.",
+    "pricePHP": 299
   },
   {
     "id": "tier-2",
@@ -29,7 +30,8 @@
       "Vanilla JavaScript"
     ],
     "demo": "demos/creative.html",
-    "note": "Design sample with fictional Jamie Rivera content. No client results are claimed."
+    "note": "Design sample with fictional Jamie Rivera content. No client results are claimed.",
+    "pricePHP": 499
   },
   {
     "id": "tier-3",
@@ -46,7 +48,8 @@
       "Vanilla JavaScript"
     ],
     "demo": "demos/immersive.html",
-    "note": "Design sample with fictional Jamie Rivera content. No client results are claimed."
+    "note": "Design sample with fictional Jamie Rivera content. No client results are claimed.",
+    "pricePHP": 799
   },
   {
     "id": "tier-4",

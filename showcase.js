@@ -3,7 +3,7 @@
 let showcaseData;
 const showcaseDialog=document.getElementById('showcase-dialog');
 let showcaseOpener;
-const dataReady=fetch('showcase-data.json').then(response=>{
+const dataReady=fetch('showcase-data.json?v=10').then(response=>{
   if(!response.ok) throw new Error('Collection unavailable');
   return response.json();
 }).then(data=>showcaseData=data);
@@ -23,6 +23,7 @@ document.querySelectorAll('[data-showcase]').forEach(button=>button.addEventList
       image.decoding='async';figure.append(image);return figure;
     }));
     const context=document.getElementById('showcase-context');context.replaceChildren();
+    if(study.pricePHP)context.append(showcaseText('h3','Portfolio price'),showcaseText('p','₱'+study.pricePHP+' PHP'));
     if(study.steps){const heading=showcaseText('h3','How the workflow is designed');const list=document.createElement('ol');list.append(...study.steps.map(step=>showcaseText('li',step)));context.append(heading,list);}
     if(study.deliverables){context.append(showcaseText('h3','What this demonstrates'),showcaseText('p',study.deliverables.join(' · ')));}
     document.getElementById('showcase-note').textContent=study.note;
