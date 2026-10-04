@@ -1,0 +1,52 @@
+.header-actions{display:flex;align-items:center;gap:22px}
+.theme-toggle{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-width:44px;min-height:44px;padding:9px 12px;border:1px solid var(--line);border-radius:24px;background:var(--panel);color:var(--text);font-size:12px;white-space:nowrap}
+.theme-symbol{font-size:20px;line-height:1}.theme-toggle:hover{border-color:var(--blue)}
+:root[data-theme="light"]{--bg:#f5f7fc;--panel:#fff;--text:#19263c;--muted:#52617a;--blue:#365cc0;--line:#233c6726;--accent:#294da8;color-scheme:light}
+[data-theme="light"] body{background:var(--bg)}
+[data-theme="light"] .header nav{color:#455570}
+[data-theme="light"] .ambient{background:radial-gradient(ellipse at 80% 30%,#9ebaff40,transparent 55%)}
+[data-theme="light"] .primary{background:#365cc0;color:#fff}
+[data-theme="light"] .card{background:linear-gradient(145deg,#fff,#edf2fc)}
+[data-theme="light"] .card-top{color:#52617a}
+[data-theme="light"] .tool-list{color:#344763}
+[data-theme="light"] .float-label{background:#ffffffed;border-color:#365cc033;color:#344b76;box-shadow:0 4px 18px #29416c0c}
+[data-theme="light"] .visual-note{color:#52617a}
+[data-theme="light"] .orbit{border-color:#6988d0;box-shadow:0 0 14px #658aff30,inset 0 0 10px #658aff20}
+[data-theme="light"] .orbit:after{border-color:#6988d030}
+[data-theme="light"] .portrait span{background:#fffffff0;color:#344763}
+[data-theme="light"] .contact{background:radial-gradient(ellipse at 85% 40%,#dce6fc90,transparent 60%)}
+[data-theme="light"] .project-feature,[data-theme="light"] .screenshot-project{background:#fff}
+[data-theme="light"] .workflow-demo{background:radial-gradient(ellipse at center,#dce6fc,transparent 75%)}
+[data-theme="light"] .demo-badge{color:#365cc0}
+[data-theme="light"] .node{background:#f1f5ff;border-color:#365cc033}
+[data-theme="light"] .node.selected{border-color:#365cc0;box-shadow:0 0 24px #365cc018}
+[data-theme="light"] .screenshot-placeholder{background:#edf2fc;border-color:#365cc044}
+[data-theme="light"] .screenshot-button img{background:#edf2fc}
+[data-theme="light"] .screenshot-button>span{background:#fffffff2;color:#294da8}
+[data-theme="light"] dialog{background:#fff;color:#19263c;border-color:#365cc055}
+[data-theme="light"] dialog::backdrop{background:#263c6480}
+[data-theme="light"] .workflow-loader{background:#f5f7fc}
+[data-theme="light"] .loader-brand{color:#19263c}
+[data-theme="light"] .loader-content>p,[data-theme="light"] .loader-step{color:#52617a}
+[data-theme="light"] .loader-step b{background:#fff;border-color:#365cc033;color:#365cc0}
+[data-theme="light"] .loader-step.active b{background:#e7efff;border-color:#365cc0;box-shadow:0 0 28px #365cc01c}
+[data-theme="light"] .loader-step.complete b{border-color:#23796d;color:#23796d}
+[data-theme="light"] .loader-wire{background:#d1dbed}
+[data-theme="light"] .loader-wire:after{background:#365cc0}
+[data-theme="light"] .loader-skip{border-color:#365cc044;color:#294da8}
+[data-theme="light"] .chat-launcher{background:#fff;color:#243e70;border-color:#365cc044;box-shadow:0 8px 30px #29416c20}
+[data-theme="light"] .portfolio-chat{background:#fff;border-color:#365cc044;box-shadow:0 18px 60px #29416c26}
+[data-theme="light"] .chat-header,[data-theme="light"] .chat-form{border-color:#233c6726}
+[data-theme="light"] .chat-header p,[data-theme="light"] .chat-note{color:#52617a}
+[data-theme="light"] .chat-message{background:#edf2fc;color:#243653}
+[data-theme="light"] .chat-message.user{background:#365cc0;color:#fff}
+[data-theme="light"] .chat-message a{color:#294da8}
+[data-theme="light"] .chat-options button{border-color:#365cc044;color:#294da8}
+[data-theme="light"] .chat-options button:hover{background:#edf2fc}
+[data-theme="light"] .chat-form input{background:#f5f7fc;border-color:#365cc044;color:#19263c}
+[data-theme="light"] .chat-form input::placeholder{color:#64718a}
+[data-theme="light"] .chat-form button{background:#365cc0;color:#fff}
+[data-theme="light"] #particles{opacity:.2}
+@media(max-width:1000px){.header-actions{gap:14px}.theme-label{display:none}}
+@media(max-width:720px){.header-actions{gap:0}.theme-toggle{padding:8px}.header{gap:12px}.header nav{gap:10px}.brand{font-size:34px}}
+@media(max-width:380px){.header{padding-left:14px;padding-right:14px;gap:8px}.header nav{gap:8px;font-size:10px}.brand{font-size:30px}.brand span{margin-left:4px}}

@@ -1,0 +1,109 @@
+        /* Floating breathing animation for central core */
+        @keyframes floatBreathing {
+            0%, 100% {
+                transform: translateY(0px) scale(1);
+            }
+            50% {
+                transform: translateY(-8px) scale(1.02);
+            }
+        }
+
+        .floating-core {
+            animation: floatBreathing 6s ease-in-out infinite;
+        }
+
+        /* Orbiting Rings */
+        .orbit-ring {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+            border: 1.5px solid rgba(135, 185, 255, 0.45);
+            box-shadow: 0 0 15px rgba(100, 180, 255, 0.2), inset 0 0 15px rgba(100, 180, 255, 0.1);
+            pointer-events: none;
+        }
+
+        /* Dotted Orbit Variation */
+        .orbit-ring-dotted {
+            border-style: dotted;
+            border-image: linear-gradient(to right, rgba(135,185,255,0.6), rgba(135,185,255,0.1)) 1;
+            stroke-dasharray: 4 6;
+        }
+
+        .orbit-1 {
+            transform: rotateX(72deg) rotateY(20deg) rotateZ(0deg);
+            animation: spin1 20s linear infinite;
+        }
+
+        .orbit-2 {
+            transform: rotateX(65deg) rotateY(-40deg) rotateZ(0deg);
+            animation: spin2 25s linear infinite reverse;
+        }
+
+        .orbit-3 {
+            transform: rotateX(80deg) rotateY(55deg) rotateZ(0deg);
+            animation: spin3 18s linear infinite;
+        }
+
+        .orbit-4 {
+            transform: rotateX(20deg) rotateY(80deg) rotateZ(0deg);
+            animation: spin4 22s linear infinite reverse;
+        }
+
+        @keyframes spin1 {
+            from { transform: rotateX(72deg) rotateY(20deg) rotateZ(0deg); }
+            to { transform: rotateX(72deg) rotateY(20deg) rotateZ(360deg); }
+        }
+
+        @keyframes spin2 {
+            from { transform: rotateX(65deg) rotateY(-40deg) rotateZ(0deg); }
+            to { transform: rotateX(65deg) rotateY(-40deg) rotateZ(360deg); }
+        }
+
+        @keyframes spin3 {
+            from { transform: rotateX(80deg) rotateY(55deg) rotateZ(0deg); }
+            to { transform: rotateX(80deg) rotateY(55deg) rotateZ(360deg); }
+        }
+
+        @keyframes spin4 {
+            from { transform: rotateX(20deg) rotateY(80deg) rotateZ(0deg); }
+            to { transform: rotateX(20deg) rotateY(80deg) rotateZ(360deg); }
+        }
+
+        /* Electron Dots on Orbit Rings */
+        .electron {
+            position: absolute;
+            top: -5px;
+            left: 50%;
+            width: 10px;
+            height: 10px;
+            background: #ffffff;
+            border-radius: 50%;
+            box-shadow: 0 0 12px #4df3ff, 0 0 20px #4df3ff;
+            transform: translateX(-50%);
+        }
+
+
+.brand{display:flex;align-items:center;letter-spacing:normal;flex-shrink:0}
+.brand img{display:block;width:60px;height:60px}
+.visual .atom-wrapper{position:relative;width: min(380px, 100%);aspect-ratio:1;transform-style:preserve-3d;display:grid;place-items:center}
+.visual .floating-core{position:relative;width:192px;height:192px;border-radius:50%;display:grid;place-items:center;filter:drop-shadow(0 0 20px #64b4ff66)}
+.baby-robot{display:block;width:100%;height:100%}
+.baby-robot .eye-text{font-family:'Arial Rounded MT Bold',Arial,sans-serif;font-weight:900;transform-box:fill-box;transform-origin:center;animation:baby-blink 5.6s infinite}
+@keyframes baby-blink{0%,91%,95%,100%{transform:scaleY(1)}93%{transform:scaleY(.1)}}
+#faceInteractiveGroup{transition:transform .12s ease-out}
+.visual .float-label{border-radius:12px;box-shadow:0 8px 32px #0003,inset 0 1px #ffffff1a;z-index:2}
+.visual .label-a{top:35px;left:0}.visual .label-b{right:0;top:275px}.visual .label-c{bottom:50px;left:0}
+.chat-launcher{width:64px;height:64px;padding:0;justify-content:center;border-radius:50%;gap:0}
+.chat-launcher .chat-robot{width:60px;height:60px}
+.portfolio-chat{bottom:100px}
+[data-theme="light"] .orbit-ring{border-color:#487cbd88;box-shadow:0 0 15px #648aff33,inset 0 0 15px #648aff22}
+.motion-off .visual .scene{transform:none}
+.motion-off .visual .floating-core,.motion-off .visual .orbit-ring,.motion-off .eye-text{animation-play-state:paused}
+.motion-off #faceInteractiveGroup{transform:none!important;transition:none}
+@media(max-width:1000px){.visual .floating-core{width:170px;height:170px}}
+@media(max-width:720px){.brand img{width:48px;height:48px}.visual .atom-wrapper{width:min(300px,100%)}.visual .scene{inset:15px}.visual .floating-core{width:160px;height:160px}.visual .label-a{top:10px}.visual .label-b{top:245px}.visual .label-c{bottom:35px}.visual .visual-note{font-size:8px;letter-spacing:1.2px}.chat-launcher{width:58px;height:58px}.chat-launcher .chat-robot{width:54px;height:54px}.portfolio-chat{bottom:86px}}
+@media(prefers-reduced-motion:reduce){.visual .scene{transform:none!important}.visual .floating-core,.visual .orbit-ring,.eye-text{animation:none!important}#faceInteractiveGroup{transform:none!important;transition:none}}
+
