@@ -18,3 +18,6 @@
 
 .form-actions .button{justify-content:center;white-space:nowrap;min-width:140px;height:auto;font-size:12px;line-height:1.4}.form-actions .button.secondary{width:auto;padding:15px 22px;color:var(--text);background:var(--card);border:1px solid var(--line)}
 @media(max-width:450px){.form-actions .button{flex:1 1 140px}}
+
+/* Portfolio regular and discounted prices */
+.portfolio-offers{display:grid;gap:22px;margin-top:24px}.portfolio-offer h3{font-size:16px;margin:0 0 8px}.price-line{display:flex;align-items:center;gap:10px 14px;flex-wrap:wrap;margin-top:8px}.regular-price{font-size:13px;opacity:.8}.regular-price s{text-decoration-thickness:2px}.sale-price{font-size:25px;line-height:1.3;color:var(--text)}.sale-price small{font-size:11px;font-weight:500}.price-saving{display:inline-block;border:1px solid var(--line);border-radius:999px;padding:5px 9px;font-size:12px;font-weight:700;color:var(--text);background:var(--card)}.portfolio-price{margin:12px 0 16px}.portfolio-price>.price-line{margin-top:6px}
